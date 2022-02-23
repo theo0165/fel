@@ -1,5 +1,5 @@
 .hoverStroke:hover {
-  color: black;
+  color: #000;
   text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff,
     3px 3px 0 #fff;
 }

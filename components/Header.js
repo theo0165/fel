@@ -1,23 +1,64 @@
+import Image from "next/image";
 import styles from "../styles/Header.module.css";
 
 export default function Header() {
   return (
     <header>
+      <div className="topBar w-11/12 border-b-2 border-white flex justify-between py-3 mx-auto text-white absolute top-0 right-[50%] translate-x-1/2 z-20">
+        <div>LOGO</div>
+        <div>COLORS</div>
+      </div>
       <div className="h-screen grid grid-rows-3 bg-black">
-        <div className="flex font-bold px-28">
-          <a className={styles.hoverStroke + " text-[200px] text-[#5200FF]"}>
+        <div className="flex font-bold relative">
+          <a
+            href="#"
+            className={
+              styles.hoverStroke + " text-[150px] text-[#5200FF] z-10 pl-28"
+            }
+          >
             Start
           </a>
+          <video
+            src="https://dl8.webmfiles.org/big-buck-bunny_trailer.webm"
+            loop
+            autoPlay
+            muted
+            className="absolute right-0 top-0 w-screen h-full object-cover"
+          />
         </div>
-        <div className="flex font-bold px-28">
-          <a className={styles.hoverStroke + " text-[200px] text-[#5200FF]"}>
+        <div className="flex font-bold relative">
+          <a
+            href="#"
+            className={
+              styles.hoverStroke + " text-[150px] text-[#5200FF] z-10 pl-28"
+            }
+          >
             LAB01
           </a>
+          <video
+            src="https://dl8.webmfiles.org/big-buck-bunny_trailer.webm"
+            loop
+            autoPlay
+            muted
+            className="absolute right-0 top-0 w-screen h-full object-cover"
+          />
         </div>
-        <div className="flex font-bold px-28">
-          <a className={styles.hoverStroke + " text-[200px] text-[#5200FF]"}>
+        <div className="flex font-bold relative">
+          <a
+            href="#"
+            className={
+              styles.hoverStroke + " text-[150px] text-[#5200FF] z-10 pl-28"
+            }
+          >
             Kontakt
           </a>
+          <video
+            src="https://dl8.webmfiles.org/big-buck-bunny_trailer.webm"
+            loop
+            autoPlay
+            muted
+            className="absolute right-0 top-0 w-screen h-full object-cover"
+          />
         </div>
       </div>
     </header>
