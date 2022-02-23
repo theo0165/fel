@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "../styles/Header.module.css";
 
 export default function Header() {
@@ -9,7 +8,7 @@ export default function Header() {
         <div>COLORS</div>
       </div>
       <div className="h-screen grid grid-rows-3 bg-black">
-        <div className="flex font-bold relative">
+        <div className="font-bold relative">
           <a
             href="#"
             className={
@@ -26,7 +25,7 @@ export default function Header() {
             className="absolute right-0 top-0 w-screen h-full object-cover"
           />
         </div>
-        <div className="flex font-bold relative">
+        <div className="font-bold relative">
           <a
             href="#"
             className={
@@ -43,7 +42,7 @@ export default function Header() {
             className="absolute right-0 top-0 w-screen h-full object-cover"
           />
         </div>
-        <div className="flex font-bold relative">
+        <div className="font-bold relative">
           <a
             href="#"
             className={
