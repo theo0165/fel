@@ -22,12 +22,14 @@ export default function Intro() {
       </div>
       {/* Image left + text right */}
       <div className="grid grid-cols-2 grid-rows-none px-[60px] pt-[40px]">
-        <div>
-          <Image
-            src="https://via.placeholder.com/160x185"
-            width="160px"
-            height="185px"
-          />
+        <div className="">
+          <div className="mt-[20%] ml-[20%] inline-block">
+            <Image
+              src="https://via.placeholder.com/160x185"
+              width="160px"
+              height="185px"
+            />
+          </div>
         </div>
         <p className="text-[45px] text-white">
           Genom engagerande samarbetsmetoder, kreativitet och upptäckarlust får
