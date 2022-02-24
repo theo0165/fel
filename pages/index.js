@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Intro from "../components/Intro";
+import LabCollection from "../components/LabCollection";
 import Layout from "../components/Layout";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
           className="object-cover object-center"
         />
       </div>
+      <LabCollection />
     </Layout>
   );
 }
