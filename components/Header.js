@@ -12,7 +12,8 @@ export default function Header() {
           <a
             href="#"
             className={
-              styles.hoverStroke + " text-[150px] text-[#5200FF] z-10 pl-28"
+              styles.hoverStroke +
+              " text-[150px] text-[#5200FF] z-10 pl-28 relative"
             }
           >
             Start
@@ -29,7 +30,8 @@ export default function Header() {
           <a
             href="#"
             className={
-              styles.hoverStroke + " text-[150px] text-[#5200FF] z-10 pl-28"
+              styles.hoverStroke +
+              " text-[150px] text-[#5200FF] z-10 pl-28 relative"
             }
           >
             LAB01
@@ -46,7 +48,8 @@ export default function Header() {
           <a
             href="#"
             className={
-              styles.hoverStroke + " text-[150px] text-[#5200FF] z-10 pl-28"
+              styles.hoverStroke +
+              " text-[150px] text-[#5200FF] z-10 pl-28 relative"
             }
           >
             Kontakt

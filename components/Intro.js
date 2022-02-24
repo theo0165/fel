@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Intro() {
   return (
-    <div className="pt-[150px]">
+    <div className="pt-[150px] pb-[100px]">
       {/* Image + text over */}
       <div className="relative flex justify-center">
         <p className="text-[80px] text-white absolute z-10 w-[700px] -translate-x-[200px]">
