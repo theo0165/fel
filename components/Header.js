@@ -15,6 +15,7 @@ export default function Header() {
               styles.hoverStroke +
               " text-[150px] text-[#5200FF] z-10 pl-28 relative"
             }
+            tabIndex="2"
           >
             Start
           </a>
@@ -33,6 +34,7 @@ export default function Header() {
               styles.hoverStroke +
               " text-[150px] text-[#5200FF] z-10 pl-28 relative"
             }
+            tabIndex="3"
           >
             LAB01
           </a>
@@ -51,6 +53,7 @@ export default function Header() {
               styles.hoverStroke +
               " text-[150px] text-[#5200FF] z-10 pl-28 relative"
             }
+            tabIndex="3"
           >
             Kontakt
           </a>

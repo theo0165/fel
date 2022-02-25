@@ -11,6 +11,7 @@ export default function Layout({ children }) {
       <a
         href="#main"
         className="absolute text-white left-5 -translate-y-[100%] focus:-translate-y-0 z-50 bg-gray-500 p-4 transition-transform"
+        tabIndex="1"
       >
         Skip to content...
       </a>
