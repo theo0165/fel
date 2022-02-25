@@ -26,10 +26,9 @@ export default function Footer() {
           <p>Experience</p>
           <p>Lab</p>
         </div>
-        <p className="absolute bottom-[10px] right-0 text-[32px]">
-          Tillsammans provkör vi framtiden.
-          <br />
-          Och skapar den.
+        <p className="absolute bottom-[10px] right-0 text-[32px] font-medium">
+          Tillsammans provkör vi
+          <br /> framtiden. Och skapar den.
         </p>
       </div>
     </footer>
