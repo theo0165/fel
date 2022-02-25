@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function EndSection() {
   return (
-    <div className="pt-[140px]">
+    <div className="pt-[140px] pb-[100px]">
       <div className="mb-[90px]">
         <div className="inline-block">
           <Image
