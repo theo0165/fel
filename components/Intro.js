@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Parallax } from "react-scroll-parallax";
 
 export default function Intro() {
   return (
@@ -19,9 +20,11 @@ export default function Intro() {
       {/* Image left + text right */}
       <div className="grid grid-cols-2 grid-rows-none px-[60px] pt-[40px]">
         <div className="">
-          <div className="mt-[20%] ml-[20%] inline-block">
-            <Image src="/images/one.png" width="160px" height="185px" />
-          </div>
+          <Parallax speed={-10}>
+            <div className="mt-[20%] ml-[20%] inline-block">
+              <Image src="/images/one.png" width="160px" height="185px" />
+            </div>
+          </Parallax>
         </div>
         <p className="text-[45px] text-white">
           Genom engagerande samarbetsmetoder, kreativitet och upptäckarlust får

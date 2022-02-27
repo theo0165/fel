@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Parallax } from "react-scroll-parallax";
 
 export default function EndSection() {
   return (
@@ -18,9 +19,11 @@ export default function EndSection() {
       </div>
       <div className="ml-[90px] flex items-center relative mb-[60px]">
         <Image src="/images/six.jpg" width="860px" height="440px" />
-        <div className="ml-[200px]">
-          <Image src="/images/seven.jpg" width="160px" height="185px" />
-        </div>
+        <Parallax speed={-10}>
+          <div className="ml-[200px]">
+            <Image src="/images/seven.jpg" width="160px" height="185px" />
+          </div>
+        </Parallax>
       </div>
       <div className="text-white text-[40px] w-10/12 mx-auto">
         <p>
