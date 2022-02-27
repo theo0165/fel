@@ -3,10 +3,10 @@ import { Parallax } from "react-scroll-parallax";
 
 export default function Intro() {
   return (
-    <div className="pt-[150px] pb-[100px]" id="main">
+    <div className="pt-[150px] pb-[100px] intro-text:pt-[50px]" id="main">
       {/* Image + text over */}
-      <div className="relative flex justify-center">
-        <p className="text-[80px] text-white absolute z-10 w-[700px] -translate-x-[200px]">
+      <div className="relative flex justify-center intro-br:ml-[200px] intro-tablet:flex-col">
+        <p className="text-[80px] text-white absolute z-10 w-[700px] -translate-x-[200px] intro-tablet:static intro-tablet:-translate-x-0 intro-tablet:mx-auto intro-text:text-[50px] intro-text:w-fit intro-text:pl-[20px] intro-text:pb-[20px]">
           Tillsammans provkör vi framtiden. Och skapar den.
         </p>
         <Image src="/images/two.png" width="650px" height="460px" />
@@ -18,8 +18,8 @@ export default function Intro() {
         </p>
       </div>
       {/* Image left + text right */}
-      <div className="grid grid-cols-2 grid-rows-none px-[60px] pt-[40px]">
-        <div className="">
+      <div className="grid grid-cols-2 grid-rows-none px-[60px] pt-[40px] md:grid-cols-none md:grid-rows-2 md:mt-10">
+        <div className="md:row-start-2">
           <Parallax speed={10}>
             <div className="mt-[20%] ml-[20%] inline-block">
               <Image src="/images/one.png" width="160px" height="185px" />
