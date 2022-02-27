@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="text-white py-[100px] w-11/12 mx-auto border-t-2">
+    <footer className="text-white py-[100px] w-11/12 mx-auto">
       <div className="flex justify-between text-right items-end text-[18px]">
         <div className="justify-self-start pl-[11px]">
           <p>Ulrica Ramstedt</p>

@@ -14,7 +14,7 @@ export default function Home() {
       <div className="relative w-full h-screen flex items-center justify-center">
         <p className="z-10 text-[200px] text-center">Our labs</p>
         <Image
-          src="https://via.placeholder.com/2000x1000"
+          src="/images/three.png"
           layout="fill"
           className="object-cover object-center"
         />

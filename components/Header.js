@@ -3,10 +3,12 @@ import styles from "../styles/Header.module.css";
 export default function Header() {
   return (
     <header>
+      {/*
       <div className="topBar w-11/12 border-b-2 border-white flex justify-between py-3 mx-auto text-white absolute top-0 right-[50%] translate-x-1/2 z-20">
         <div>LOGO</div>
         <div>COLORS</div>
       </div>
+      */}
       <div className="h-screen grid grid-rows-3 bg-black">
         <div className="font-bold relative">
           <a
