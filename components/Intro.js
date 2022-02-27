@@ -20,7 +20,7 @@ export default function Intro() {
       {/* Image left + text right */}
       <div className="grid grid-cols-2 grid-rows-none px-[60px] pt-[40px]">
         <div className="">
-          <Parallax speed={-10}>
+          <Parallax speed={10}>
             <div className="mt-[20%] ml-[20%] inline-block">
               <Image src="/images/one.png" width="160px" height="185px" />
             </div>

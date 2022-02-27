@@ -19,7 +19,7 @@ export default function EndSection() {
       </div>
       <div className="ml-[90px] flex items-center relative mb-[60px]">
         <Image src="/images/six.jpg" width="860px" height="440px" />
-        <Parallax speed={-10}>
+        <Parallax speed={10}>
           <div className="ml-[200px]">
             <Image src="/images/seven.jpg" width="160px" height="185px" />
           </div>
