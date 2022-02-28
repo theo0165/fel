@@ -1,6 +1,10 @@
 module.exports = {
   content: ["./pages/**/*.{html,js}", "./components/**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      HKGrotesk: ["HKGrotesk"],
+      Wagon: ["Wagon"],
+    },
     extend: {
       gridTemplateColumns: {
         "50/50": "50% 50%",

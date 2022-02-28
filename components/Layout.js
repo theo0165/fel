@@ -18,7 +18,7 @@ export default function Layout({ children }) {
           Skip to content...
         </a>
         <Header />
-        <main>{children}</main>
+        <main className="font-['HKGrotesk']">{children}</main>
         <Footer />
       </ParallaxProvider>
     </>

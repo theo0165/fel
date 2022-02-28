@@ -28,7 +28,7 @@ export default function EndSection() {
           </div>
         </Parallax>
       </div>
-      <div className="text-white text-[40px] w-10/12 mx-auto">
+      <div className="text-[40px] w-10/12 mx-auto">
         <p>
           Om Future Experience Lab Future Experience Lab är ett
           innovationsinitiativ för att stärka upplevelsedestinationen Göteborg
