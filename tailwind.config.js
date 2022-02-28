@@ -17,8 +17,11 @@ module.exports = {
         "end-break": { max: "1050px" },
         "footer-break": { max: "970px" },
         "header-break": { max: "710px" },
-        "graphics-height": { raw: "(max-height: 710px)" },
+        "graphics-height": { raw: "(max-height: 900px)" },
         "intro-text": { max: "710px" },
+      },
+      colors: {
+        "main-red": "#FF0000",
       },
     },
   },

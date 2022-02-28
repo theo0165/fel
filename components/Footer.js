@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="text-white py-[100px] w-11/12 mx-auto">
+    <footer className="text-white py-[100px] px-[40px] bg-[#262626]">
       <div className="flex justify-between text-right items-end text-[18px] end-break:grid grid-cols-2 grid-rows-2">
         <div className="justify-self-start pl-[11px] end-break:pl-0">
           <p>Ulrica Ramstedt</p>
@@ -21,7 +21,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="pt-[40px] relative inline-block">
-        <div className="text-[160px] leading-[160px] uppercase footer-break:text-[80px] footer-break:leading-[80px]">
+        <div className="text-[160px] leading-[160px] uppercase footer-break:text-[80px] footer-break:leading-[80px] text-main-red">
           <p>Future</p>
           <p>Experience</p>
           <p>Lab</p>

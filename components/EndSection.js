@@ -3,7 +3,7 @@ import { Parallax } from "react-scroll-parallax";
 
 export default function EndSection() {
   return (
-    <div className="pt-[140px] pb-[100px]">
+    <div className="pt-[140px] pb-[100px] relative">
       <div className="mb-[90px] end-break:flex end-break:flex-col">
         <div className="inline-block end-break:mb-[20px]">
           <Image src="/images/four.png" width="520px" height="330px" />
@@ -41,6 +41,9 @@ export default function EndSection() {
           Carlberg från Yrgo och Christer Hedberg och Anna-Maria Ölander från
           samarbetsbyrån &friends.
         </p>
+      </div>
+      <div className="w-[845px] h-[720px] absolute bottom-0 right-0 -z-10">
+        <Image src="/images/graphics-three.png" width="845px" height="720px" />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import { Parallax } from "react-scroll-parallax";
 
 export default function Intro() {
   return (
-    <div className="pt-[150px] pb-[100px] intro-text:pt-[50px]" id="main">
+    <div className="pb-[100px] intro-text:pt-[50px] relative" id="main">
       {/* Image + text over */}
       <div className="relative flex justify-center intro-br:ml-[200px] intro-tablet:flex-col">
         <p className="text-[80px] text-white absolute z-10 w-[700px] -translate-x-[200px] intro-tablet:static intro-tablet:-translate-x-0 intro-tablet:mx-auto intro-text:text-[50px] intro-text:w-fit intro-text:pl-[20px] intro-text:pb-[20px]">
@@ -32,6 +32,9 @@ export default function Intro() {
           känna och smaka på framtidens upplevelser med målet att utveckla
           modeller för hållbar samhällsförändring.
         </p>
+      </div>
+      <div className="w-[610px] h-[815px] absolute -bottom-[35px] left-0 -z-10">
+        <Image src="/images/graphics-two.png" width="610px" height="815px" />
       </div>
     </div>
   );
