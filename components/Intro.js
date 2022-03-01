@@ -6,10 +6,16 @@ export default function Intro() {
     <div className="pb-[100px] intro-text:pt-[50px] relative" id="main">
       {/* Image + text over */}
       <div className="relative flex justify-center intro-br:ml-[200px] intro-tablet:flex-col">
-        <p className="text-[80px] absolute z-10 w-[700px] -translate-x-[200px] intro-tablet:static intro-tablet:-translate-x-0 intro-tablet:mx-auto intro-text:text-[50px] intro-text:w-fit intro-text:pl-[20px] intro-text:pb-[20px]">
+        <div>
+          <Image src="/images/nine.png" width="650px" height="460px" />
+          <p className="w-[400px] text-white text-[24px] pt-[15px]">
+            Future Experience Lab är en experimentverkstad för att provköra
+            framtiden. Och skapa den.
+          </p>
+        </div>
+        <p className="text-[80px] font-bold font-Wagon w-[655px] -translate-y-[80px] -translate-x-[100px] leading-[85px] text-blue-green">
           Tillsammans provkör vi framtiden. Och skapar den.
         </p>
-        <Image src="/images/two.png" width="650px" height="460px" />
       </div>
       <div className="flex justify-center">
         <p className="text-[45px] w-[680px] pt-20 pl-[95px]">

@@ -10,7 +10,7 @@ export default function EndSection() {
         </div>
         <div className="inline-block translate-x-[50px] translate-y-[50px] end-break:translate-x-0 end-break:translate-y-0  end-break:self-end">
           <Image
-            src="/images/five.jpg"
+            src="/images/two.png"
             width="450px"
             height="320px"
             className="object-cover"

@@ -25,7 +25,10 @@ module.exports = {
         "intro-text": { max: "710px" },
       },
       colors: {
-        "main-red": "#FF0000",
+        "main-red": "#EE555E",
+        green: "#345353",
+        "blue-green": "#1DB7B7",
+        grey: "#262626",
       },
     },
   },

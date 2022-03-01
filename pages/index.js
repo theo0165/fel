@@ -16,7 +16,7 @@ export default function Home() {
       <div className="relative w-full h-screen flex items-center justify-center">
         <p className="z-10 text-[200px] text-center">Our labs</p>
         <Image
-          src="/images/three.png"
+          src="/images/nine.png"
           layout="fill"
           className="object-cover object-center"
         />

@@ -10,16 +10,16 @@ export default function Header() {
       </div>
       */}
       <div className="h-screen grid grid-rows-3 bg-black">
-        <div className="font-bold relative">
+        <div className="relative">
           <a
             href="#"
-            className={
-              styles.hoverStroke +
-              " text-[150px] text-[#5200FF] z-10 pl-28 relative"
-            }
+            className="text-[150px] text-main-red z-10 pl-28 relative uppercase font-bold hover:font-extralight hover:italic"
             tabIndex="2"
           >
-            Start
+            labs
+          </a>
+          <a className="text-blue-green font-light text-[150px] pl-[100px] relative z-10">
+            01 02
           </a>
           <video
             src="https://dl8.webmfiles.org/big-buck-bunny_trailer.webm"
@@ -32,13 +32,10 @@ export default function Header() {
         <div className="font-bold relative">
           <a
             href="#"
-            className={
-              styles.hoverStroke +
-              " text-[150px] text-[#5200FF] z-10 pl-28 relative"
-            }
+            className="text-[150px] text-main-red z-10 pl-28 relative uppercase hover:font-extralight hover:italic"
             tabIndex="3"
           >
-            LAB01
+            Future
           </a>
           <video
             src="https://dl8.webmfiles.org/big-buck-bunny_trailer.webm"
@@ -51,13 +48,10 @@ export default function Header() {
         <div className="font-bold relative">
           <a
             href="#"
-            className={
-              styles.hoverStroke +
-              " text-[150px] text-[#5200FF] z-10 pl-28 relative"
-            }
+            className="text-[150px] text-main-red z-10 pl-28 relative uppercase hover:font-extralight hover:italic"
             tabIndex="3"
           >
-            Kontakt
+            Contact
           </a>
           <video
             src="https://dl8.webmfiles.org/big-buck-bunny_trailer.webm"
