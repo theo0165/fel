@@ -9,12 +9,15 @@ import Layout from "../components/Layout";
 export default function Home() {
   return (
     <Layout>
-      {/* Graphics area */}
-      <div className="w-full h-[675px] opacity-80 -translate-y-[140px] z-20 relative header-break:-translate-y-0">
-        <Image src="/images/intro-graphics.png" layout="fill" />
-      </div>
       <Intro />
-      <div className="relative w-full h-screen flex items-center justify-center">
+      <div className="relative w-full h-[1000px] flex items-center justify-center">
+        <div className="absolute left-0 top-0 -translate-y-[150px] z-10">
+          <Image
+            src="/images/our-labs-circle.png"
+            width="345px"
+            height="850px"
+          />
+        </div>
         <Parallax speed={-10} className="z-10">
           <p className="z-10 text-[200px] text-center font-Wagon font-bold">
             Our labs

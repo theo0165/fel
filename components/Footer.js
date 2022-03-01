@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="py-[100px] px-[40px] bg-grey text-white">
+    <footer className="py-[100px] px-[40px] bg-grey text-white z-20 relative">
       <div className="flex justify-between text-right items-end text-[18px] end-break:grid grid-cols-2 grid-rows-2">
         <div className="justify-self-start pl-[11px] end-break:pl-0">
           <p>Ulrica Ramstedt</p>
@@ -21,12 +21,12 @@ export default function Footer() {
         </div>
       </div>
       <div className="pt-[40px] relative inline-block">
-        <div className="text-[160px] leading-[160px] uppercase footer-break:text-[80px] footer-break:leading-[80px] text-main-red">
+        <div className="text-[160px] leading-[160px] uppercase footer-break:text-[80px] footer-break:leading-[80px] text-main-red font-Wagon font-bold">
           <p>Future</p>
           <p>Experience</p>
           <p>Lab</p>
         </div>
-        <p className="absolute bottom-[10px] right-0 text-[32px] font-medium end-break:text-[21px]">
+        <p className="absolute bottom-[40px] left-[400px] text-[32px] font-medium end-break:text-[21px] text-light-blue">
           Tillsammans provkör vi
           <br /> framtiden. Och skapar den.
         </p>
