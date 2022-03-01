@@ -6,7 +6,12 @@ export default function Intro() {
     <div className="pb-[100px] pt-[200px] relative bg-green" id="main">
       <div className="relative flex justify-center intro-br:ml-[200px] intro-tablet:flex-col">
         <div className="relative z-20">
-          <Image src="/images/nine.png" width="650px" height="460px" />
+          <Image
+            src="/images/ten.png"
+            width="650px"
+            height="460px"
+            objectFit="cover"
+          />
           <p className="w-[400px] text-white text-[24px] pt-[15px]">
             Future Experience Lab är en experimentverkstad för att provköra
             framtiden. Och skapa den.

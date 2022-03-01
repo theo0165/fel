@@ -24,7 +24,7 @@ export default function Home() {
           </p>
         </Parallax>
         <Image
-          src="/images/nine.png"
+          src="/images/eleven.png"
           layout="fill"
           className="object-cover object-center"
         />
