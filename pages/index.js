@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Parallax } from "react-scroll-parallax";
 import EndSection from "../components/EndSection";
 import HandSection from "../components/HandSection";
 import Intro from "../components/Intro";
@@ -14,7 +15,11 @@ export default function Home() {
       </div>
       <Intro />
       <div className="relative w-full h-screen flex items-center justify-center">
-        <p className="z-10 text-[200px] text-center">Our labs</p>
+        <Parallax speed={-10} className="z-10">
+          <p className="z-10 text-[200px] text-center font-Wagon font-bold">
+            Our labs
+          </p>
+        </Parallax>
         <Image
           src="/images/nine.png"
           layout="fill"
