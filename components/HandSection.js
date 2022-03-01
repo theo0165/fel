@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HandSection() {
   return (
-    <div className="grid grid-cols-50/50 h-[400px] overflow-hidden hand-order:grid-rows-2 hand-order:grid-cols-none hand-order:h-auto mt-[100px]">
+    <div className="grid h-[600px] grid-cols-50/50 overflow-hidden hand-order:grid-rows-2 hand-order:grid-cols-none hand-order:h-auto bg-main-red text-white">
       <div className="relative hand-order:flex flex-col hand-order:pb-[60px]">
         <div className="rotate-[6deg] -translate-x-20 absolute -translate-y-1/2 top-1/2 hand-order:static hand-order:-translate-y-0 hand-order:-translate-x-[100px] hand-order:w-fit hand-order:order-2 hand-order:rotate-3">
           <Image

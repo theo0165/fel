@@ -1,49 +1,38 @@
 import Image from "next/image";
-import { Parallax } from "react-scroll-parallax";
 
 export default function EndSection() {
   return (
-    <div className="pt-[140px] pb-[100px] relative">
-      <div className="mb-[90px] end-break:flex end-break:flex-col">
-        <div className="inline-block end-break:mb-[20px]">
-          <Image src="/images/four.png" width="520px" height="330px" />
+    <div className="bg-light-blue pt-[150px] pb-[60px]">
+      <div className="relative h-[1500px]">
+        <div className="absolute z-10 left-0 top-0">
+          <Image src="/images/eleven.png" width="815px" height="830px" />
         </div>
-        <div className="inline-block translate-x-[50px] translate-y-[50px] end-break:translate-x-0 end-break:translate-y-0  end-break:self-end">
+        <div className="absolute z-20 right-0 top-[55px]">
+          <Image src="/images/ten.png" width="920px" height="1100px" />
+        </div>
+        <div className="absolute z-30 right-0 left-0 top-[955px] w-fit mx-auto">
           <Image
-            src="/images/two.png"
-            width="450px"
-            height="320px"
-            className="object-cover"
+            src="/images/nine.png"
+            width="930px"
+            height="470px"
+            objectFit="cover"
           />
         </div>
       </div>
-      <div className="ml-[90px] flex items-center relative mb-[60px] end-break:ml-0 end-break:flex-col end-break:items-start">
-        <Image src="/images/six.jpg" width="860px" height="440px" />
-        <Parallax
-          speed={10}
-          className="end-break:self-end end-break:mr-[40px] end-break:mt-[50px]"
-        >
-          <div className="ml-[200px]">
-            <Image src="/images/seven.jpg" width="160px" height="185px" />
-          </div>
-        </Parallax>
-      </div>
-      <div className="text-[40px] w-10/12 mx-auto">
-        <p>
-          Om Future Experience Lab Future Experience Lab är ett
-          innovationsinitiativ för att stärka upplevelsedestinationen Göteborg
-          med särskilt fokus på hybridupplevelser som bidrar till
-          samhällsförändring.
+      <div className="flex flex-col">
+        <h3 className="text-[120px] text-main-red font-bold font-Wagon text-center">
+          About Future
+        </h3>
+        <p className="text-[32px] text-green px-[70px] w-[870px] self-left pb-[100px]">
+          Future Experience Lab är ett innovationsinitiativ för att stärka
+          upplevelsedestinationen Göteborg med särskilt fokus på
+          hybridupplevelser som bidrar till samhällsförändring.
         </p>
-        <br />
-        <p>
+        <p className="text-[32px] text-green text-right px-[70px] w-[850px] self-end">
           Initiativtagare är UIrica Ramstedt från förändringsbyrån Marlon, Johan
           Carlberg från Yrgo och Christer Hedberg och Anna-Maria Ölander från
           samarbetsbyrån &friends.
         </p>
-      </div>
-      <div className="w-[845px] h-[720px] absolute bottom-0 right-0 -z-10">
-        <Image src="/images/graphics-three.png" width="845px" height="720px" />
       </div>
     </div>
   );

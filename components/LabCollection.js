@@ -1,10 +1,23 @@
+import LabCollectionItem from "./LabCollectionItem";
+
+const items = [
+  { title: "01", classes: "justify-self-center" },
+  { title: "02", classes: "" },
+  { title: "03", classes: "justify-self-end" },
+  { title: "04", classes: "justify-self-center" },
+];
+
 export default function LabCollection() {
   return (
-    <div className="flex justify-around h-[400px] text-[80px] px-[100px] py-[100px] collection-text:flex-col collection-text:py-[300px] bg-blue-green">
-      <a className="self-start collection-text:order-2">Lab 01</a>
-      <a className="self-end collection-text:order-1">Lab 02</a>
-      <a className="self-start collection-text:order-4">Lab 03</a>
-      <a className="self-end collection-text:order-3">Lab 04</a>
+    <div className="grid bg-green grid-rows-2 grid-cols-none h-auto text-[80px] py-[60px] collection-text:flex-col collection-text:py-[300px] text-blue-green">
+      <div className="grid grid-cols-2 grid-rows-none">
+        <LabCollectionItem item={items[0]} />
+        <LabCollectionItem item={items[1]} />
+      </div>
+      <div className="grid grid-cols-2 grid-rows-none">
+        <LabCollectionItem item={items[2]} />
+        <LabCollectionItem item={items[3]} />
+      </div>
     </div>
   );
 }
