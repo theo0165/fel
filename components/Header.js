@@ -9,16 +9,16 @@ export default function Header() {
         <div>COLORS</div>
       </div>
       */}
-      <div className="h-screen grid grid-rows-3 bg-black">
-        <div className="relative">
+      <div className="h-screen grid grid-rows-3 bg-black text-[150px] header-break:text-[100px]">
+        <div className="relative header-break:flex header-break:items-center">
           <a
             href="#"
-            className="text-[150px] text-main-red z-30 pl-28 relative uppercase font-bold hover:font-extralight hover:italic"
+            className=" text-main-red z-30 pl-28 relative uppercase font-bold hover:font-extralight hover:italic"
             tabIndex="2"
           >
             labs
           </a>
-          <a className="text-blue-green font-bold text-[150px] pl-[100px] relative z-30">
+          <a className="text-blue-green font-bold pl-[100px] relative z-30 header-break:pl-[50px]">
             01 02
           </a>
           <video
@@ -29,10 +29,10 @@ export default function Header() {
             className="absolute right-0 top-0 w-screen h-full object-cover"
           />
         </div>
-        <div className="font-bold relative">
+        <div className="font-bold relative header-break:flex header-break:items-center">
           <a
             href="#"
-            className="text-[150px] text-main-red z-30 pl-28 relative uppercase hover:font-extralight hover:italic"
+            className="text-main-red z-30 pl-28 relative uppercase hover:font-extralight hover:italic"
             tabIndex="3"
           >
             Future
@@ -45,10 +45,10 @@ export default function Header() {
             className="absolute right-0 top-0 w-screen h-full object-cover"
           />
         </div>
-        <div className="font-bold relative">
+        <div className="font-bold relative header-break:flex header-break:items-center">
           <a
             href="#"
-            className="text-[150px] text-main-red z-30 pl-28 relative uppercase hover:font-extralight hover:italic"
+            className="text-main-red z-30 pl-28 relative uppercase hover:font-extralight hover:italic"
             tabIndex="3"
           >
             Contact

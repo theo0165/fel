@@ -26,7 +26,7 @@ export default function Footer() {
           <p>Experience</p>
           <p>Lab</p>
         </div>
-        <p className="absolute bottom-[40px] left-[400px] text-[32px] font-medium end-break:text-[21px] text-light-blue">
+        <p className="absolute bottom-[40px] left-[400px] text-[32px] font-medium text-light-blue footer-break:text-[24px] footer-break:bottom-[10px] footer-break:left-[250px]">
           Tillsammans provkör vi
           <br /> framtiden. Och skapar den.
         </p>

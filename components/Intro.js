@@ -3,7 +3,10 @@ import { Parallax } from "react-scroll-parallax";
 
 export default function Intro() {
   return (
-    <div className="pb-[100px] pt-[200px] relative bg-green" id="main">
+    <div
+      className="pb-[100px] pt-[200px] relative bg-green overflow-x-hidden"
+      id="main"
+    >
       <div className="relative flex justify-center intro-br:ml-[200px] intro-tablet:flex-col">
         <div className="relative z-20">
           <Image
