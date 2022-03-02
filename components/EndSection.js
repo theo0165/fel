@@ -4,20 +4,12 @@ import bottomCircle from "../public/images/bottom-circle.svg";
 export default function EndSection() {
   return (
     <div className="bg-light-blue pt-[150px] pb-[60px] relative">
-      <div className="relative h-[1500px]">
+      <div className="relative h-[900px]">
         <div className="absolute z-10 left-0 top-0">
           <Image src="/images/eleven.png" width="675px" height="665px" />
         </div>
         <div className="absolute z-20 right-0 top-[55px]">
           <Image src="/images/ten.png" width="825px" height="670px" />
-        </div>
-        <div className="absolute z-30 right-0 left-0 top-[855px] w-fit mx-auto">
-          <Image
-            src="/images/nine.png"
-            width="835px"
-            height="420px"
-            objectFit="cover"
-          />
         </div>
       </div>
       <div className="flex flex-col">

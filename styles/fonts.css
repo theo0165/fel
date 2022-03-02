@@ -1,36 +1,47 @@
 @font-face {
   font-family: "HKGrotesk";
   src: url("/fonts/HKGrotesk/HKGrotesk-Regular.woff2") format("woff2");
+  font-style: normal;
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "HKGrotesk";
   src: url("/fonts/HKGrotesk/HKGrotesk-SemiBold.woff2") format("woff2");
+  font-style: normal;
   font-weight: 600;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "HKGrotesk";
   src: url("/fonts/HKGrotesk/HKGrotesk-Bold.woff2") format("woff2");
+  font-style: normal;
   font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Wagon";
   src: url("/fonts/Wagon/Wagon-Bold.woff2") format("woff2");
+  font-style: normal;
   font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Wagon";
   src: url("/fonts/Wagon/Wagon-ExtraLight.woff2") format("woff2");
+  font-style: normal;
   font-weight: 200;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Wagon";
   src: url("/fonts/Wagon/Wagon-ExtraLightItalic") format("woff2");
-  font-weight: 200;
   font-style: italic;
+  font-weight: 200;
+  font-display: swap;
 }
