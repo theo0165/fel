@@ -40,7 +40,7 @@
 
 @font-face {
   font-family: "Wagon";
-  src: url("/fonts/Wagon/Wagon-ExtraLightItalic") format("woff2");
+  src: url("/fonts/Wagon/Wagon-ExtraLightItalic.woff2") format("woff2");
   font-style: italic;
   font-weight: 200;
   font-display: swap;
