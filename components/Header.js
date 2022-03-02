@@ -9,16 +9,16 @@ export default function Header() {
         <div>COLORS</div>
       </div>
       */}
-      <div className="h-screen grid grid-rows-3 bg-black text-[150px] header-break:text-[100px]">
+      <div className="h-screen grid grid-rows-3 bg-black text-[150px] header-break:text-[100px] header-smallest-text:text-[50px]">
         <div className="relative header-break:flex header-break:items-center">
           <a
             href="#"
-            className=" text-main-red z-30 pl-28 relative uppercase font-bold hover:font-extralight hover:italic"
+            className=" text-main-red z-30 pl-28 relative uppercase font-bold hover:font-extralight hover:italic header-smallest-text:pl-[20px]"
             tabIndex="2"
           >
             labs
           </a>
-          <a className="text-blue-green font-bold pl-[100px] relative z-30 header-break:pl-[50px]">
+          <a className="text-blue-green font-bold pl-[100px] relative z-30 header-break:pl-[50px] header-smallest-text:pl-[20px]">
             01 02
           </a>
           <video
@@ -32,7 +32,7 @@ export default function Header() {
         <div className="font-bold relative header-break:flex header-break:items-center">
           <a
             href="#"
-            className="text-main-red z-30 pl-28 relative uppercase hover:font-extralight hover:italic"
+            className="text-main-red z-30 pl-28 relative uppercase hover:font-extralight hover:italic header-smallest-text:pl-[20px]"
             tabIndex="3"
           >
             Future
@@ -48,7 +48,7 @@ export default function Header() {
         <div className="font-bold relative header-break:flex header-break:items-center">
           <a
             href="#"
-            className="text-main-red z-30 pl-28 relative uppercase hover:font-extralight hover:italic"
+            className="text-main-red z-30 pl-28 relative uppercase hover:font-extralight hover:italic header-smallest-text:pl-[20px]"
             tabIndex="3"
           >
             Contact

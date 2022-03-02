@@ -23,6 +23,11 @@ module.exports = {
         "header-break": { max: "1010px" },
         "graphics-height": { raw: "(max-height: 900px)" },
         "intro-text": { max: "710px" },
+        "footer-width": { max: "740px" },
+        "footer-smaller-text": { max: "590px" },
+        "collection-one-col": { max: "900px" },
+        "header-smallest-text": { max: "700px" },
+        "ourlabs-smaller": { max: "530px" },
       },
       colors: {
         "main-red": "#EE555E",

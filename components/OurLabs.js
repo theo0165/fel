@@ -2,11 +2,15 @@ import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
 import { InView } from "react-intersection-observer";
 import { useEffect, useState, useRef } from "react";
+import styles from "../styles/OurLabs.module.css";
 
 export default function OurLabs() {
   const classes = {
-    inView: "text-blue-500 z-10 text-[200px] text-center font-Wagon font-bold",
-    notInView: "z-10 text-[200px] text-center font-Wagon font-bold",
+    inView:
+      styles.animation +
+      " z-10 text-[200px] text-center font-Wagon font-bold ourlabs-smaller:text-[70px]",
+    notInView:
+      "z-10 text-[200px] text-center font-Wagon font-bold ourlabs-smaller:text-[70px]",
   };
 
   const [elementClasses, setElementClasses] = useState(classes.notInView);

@@ -1,0 +1,30 @@
+.animation {
+  animation: changeFont 5s linear 0s infinite;
+}
+
+@keyframes changeFont {
+  0% {
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+  25% {
+    font-size: italic;
+  }
+
+  50% {
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  75% {
+    font-style: italic;
+    text-decoration: line-through;
+  }
+
+  100% {
+    font-style: bold;
+    text-decoration: underline;
+  }
+}
