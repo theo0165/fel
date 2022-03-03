@@ -28,6 +28,7 @@ module.exports = {
         "collection-one-col": { max: "900px" },
         "header-smallest-text": { max: "700px" },
         "ourlabs-smaller": { max: "530px" },
+        "footer-icons": { max: "1235px", min: "741px" },
       },
       colors: {
         "main-red": "#EE555E",

@@ -14,7 +14,7 @@ export default function Footer() {
             Tillsammans provkör vi
             <br /> framtiden. Och skapar den.
           </p>
-          <div className="flex pl-[40px] footer-width:pl-0 footer-width:pt-[20px]">
+          <div className="flex pl-[100px] footer-width:pl-0 footer-width:pt-[20px]">
             <FaInstagram
               color="#F44A5A"
               className="mr-[20px] cursor-pointer w-[70px] h-[70px] footer-break:w-[40px] footer-break:h-[40px]"
