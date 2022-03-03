@@ -17,9 +17,14 @@ export default function OurLabs() {
 
   return (
     <div className="relative w-full h-[1000px] flex items-center justify-center">
-      <div className="fixed top-0 left-0 bg-blue-200 text-black z-40"></div>
-      <div className="absolute left-0 top-0 -translate-y-[150px] z-10">
-        <Image src="/images/our-labs-circle.png" width="345px" height="850px" />
+      <div className="absolute left-0 top-0 -translate-y-[350px] z-10">
+        <Parallax speed={30}>
+          <Image
+            src="/images/our-labs-circle.png"
+            width="345px"
+            height="850px"
+          />
+        </Parallax>
       </div>
       <InView
         as="div"

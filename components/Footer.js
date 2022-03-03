@@ -2,7 +2,7 @@ import { FaInstagram, FaFacebookSquare } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="pt-[50px] pb-[50px] px-[40px] bg-grey text-white z-20 relative">
+    <footer className="pt-[50px] pb-[50px] px-[40px] bg-green text-white z-20 relative">
       <div className="pt-[40px] relative inline-block">
         <div className="text-[160px] leading-[160px] uppercase footer-break:text-[80px] footer-break:leading-[80px] footer-smaller-text:text-[40px] footer-smaller-text:leading-[40px] text-main-red font-Wagon font-bold">
           <p>Future</p>

@@ -8,7 +8,7 @@ export default function Intro() {
       id="main"
     >
       <div className="relative flex justify-center end-break:flex-col-reverse">
-        <Parallax speed={20}>
+        <Parallax speed={20} className="relative z-20">
           <div className="relative z-20">
             <Image
               src="/images/ten.png"
@@ -16,7 +16,7 @@ export default function Intro() {
               height="460px"
               objectFit="cover"
             />
-            <p className="w-[400px] text-white text-[24px] pt-[15px] end-break:pl-[20px] ourlabs-smaller:text-[21px]">
+            <p className="w-[400px] text-white text-[24px] pt-[15px] end-break:pl-[20px] ourlabs-smaller:text-[21px] z-30 relative">
               Future Experience Lab är en experimentverkstad för att provköra
               framtiden. Och skapa den.
             </p>
