@@ -22,7 +22,7 @@ export default function Intro() {
             </p>
           </div>
         </Parallax>
-        <p className="text-[80px] font-bold font-Wagon w-[655px] -translate-y-[80px] -translate-x-[100px] leading-[85px] text-blue-green relative z-20 end-break:translate-x-0 end-break:translate-y-0 end-break:w-auto end-break:h-auto end-break:px-[25px] end-break:pb-[20px] footer-smaller-text:text-[40px] footer-smaller-text:leading-[70px]">
+        <p className="text-[80px] font-bold font-Wagon w-[655px] -translate-y-[80px] -translate-x-[100px] leading-[85px] relative z-20 end-break:translate-x-0 end-break:translate-y-0 end-break:w-auto end-break:h-auto end-break:px-[25px] end-break:pb-[20px] footer-smaller-text:text-[40px] footer-smaller-text:leading-[70px]">
           Tillsammans provkör vi framtiden. Och skapar den.
         </p>
         <div className="absolute top-0 -translate-y-[250px] translate-x-[200px] z-10">
