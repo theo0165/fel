@@ -8,12 +8,12 @@ export default function EndSection() {
       <div className="relative h-[900px] overflow-x-hidden ourlabs-smaller:h-[640px]">
         <div className="absolute z-10 left-0 top-0 hand-order:-translate-x-[40%] overflow-y-hidden">
           <Parallax speed={20}>
-            <Image src="/images/city.png" width="675px" height="665px" />
+            <Image src="/images/dance.png" width="920px" height="615px" />
           </Parallax>
         </div>
         <div className="absolute z-20 right-0 top-[55px] hand-order:top-[200px] hand-order:translate-x-[100px]">
           <Parallax speed={-10}>
-            <Image src="/images/tram.png" width="825px" height="670px" />
+            <Image src="/images/event.png" width="800px" height="600px" />
           </Parallax>
         </div>
       </div>
