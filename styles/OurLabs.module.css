@@ -1,5 +1,5 @@
 .animation {
-  animation: changeFont 3s linear 0s infinite;
+  animation: changeFont 1s linear 0s infinite;
 }
 
 @keyframes changeFont {

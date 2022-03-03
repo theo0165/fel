@@ -33,7 +33,7 @@ export default function OurLabs() {
         }}
         className="z-10"
       >
-        <Parallax speed={-10}>
+        <Parallax speed={-20}>
           <p className={elementClasses}>Our labs</p>
         </Parallax>
       </InView>

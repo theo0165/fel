@@ -27,7 +27,7 @@ export default function Header() {
             01 02
           </a>
           <video
-            src="https://dl8.webmfiles.org/big-buck-bunny_trailer.webm"
+            src="/video/header-video-one.mp4"
             loop
             autoPlay
             muted
@@ -43,7 +43,7 @@ export default function Header() {
             Future
           </a>
           <video
-            src="https://dl8.webmfiles.org/big-buck-bunny_trailer.webm"
+            src="/video/header-video-two.mp4"
             loop
             autoPlay
             muted
@@ -59,7 +59,7 @@ export default function Header() {
             Contact
           </a>
           <video
-            src="https://dl8.webmfiles.org/big-buck-bunny_trailer.webm"
+            src="/video/header-video-three.mp4"
             loop
             autoPlay
             muted
