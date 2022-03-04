@@ -5,7 +5,7 @@ import bottomCircle from "../public/images/bottom-circle.svg";
 export default function EndSection() {
   return (
     <div className="bg-light-blue pt-[150px] pb-[60px] relative">
-      <div className="relative h-[900px] overflow-x-hidden ourlabs-smaller:h-[640px]">
+      <div className="relative h-[900px] overflow-x-hidden ourlabs-smaller:h-[640px] overflow-y-hidden">
         <div className="absolute z-10 left-0 top-0 hand-order:-translate-x-[40%] overflow-y-hidden">
           <Parallax speed={20}>
             <Image src="/images/dance.png" width="920px" height="615px" />
